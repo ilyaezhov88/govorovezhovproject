@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MAGNO</title>
+    <meta charset="UTF-8">
+</head>
+
+<body style="margin:0px; font-family:Helvetica-light;">
+
+
+    <div class="header">
+        <span class="logo">MAGNO</span>
+        <img src="images\phone.png" width="23" height="23" class="phone">
+        <img src="images\trash.png" width="20" height="20" class="trash_2">
+        <img src="images\profile.png" width="20" height="20" class="profile">
+        <img src="images\search.png" width="17" height="17" class="search_2">
+
+        <span class="number_phone"><b>+7 900 000 00 00</b></span>
+        <input class="find" type="text" name="find" placeholder="  Поиск по сайту">
+        <span><a href="" class="cab" title="Личный кабинет">Личный кабинет</a></span>
+        <span><a href="" class="trash" title="Корзина">Корзина</a></span>
+    </div>
+    <div class="lower-header">
+        <b><span  class="all_categories">ВСЕ КАТЕГОРИИ </b> <span class="plus" style="color:grey; font-size:30px;">+</span></span>
+        <b><span class="post">Доставка </b></span>
+        <b><span class="garant">Гарантия </b></span>
+        <b><span class="contancts">Контакты </b></span>
+    </div>
+    <div class="ad">
+        <img class="notebook" src="images\notebook.png" alt="NoteBook" id="imageNoteBook" width="384" height="261">
+        <span class="tagline">
+            <pre style="font-family:Helvetica-light;">
+        <span class="NoteBook">НОУТБУКИ</span>
+        <span class="ForOffice">ДЛЯ ОФИСА И ДОМА</span>
+        </pre>
+        </span>
+
+        <span class="lorem">
+            <pre style="font-family:Helvetica-light;">
+             Lorem ipsum dolor sit amet, consectetur adipiscing eli sit amet nisi biben
+             Vestibulum sit amet nisi rhoncus elit viverra bibendum dolor sit ame cons
+            </pre>
+        </span>
+
+        <div class="about_button">
+            ПОДРОБНЕЕ
+        </div>
+
+        <div class="active_button">
+            <input class="radio" type="radio" name="MacBook" onclick="ChangeImage(1)" checked>
+            <input type="radio" name="MacBook" onclick="ChangeImage(2)">
+            <input type="radio" name="MacBook" onclick="ChangeImage(3)">
+        </div>
+    </div>
+
+    <div style="width:97%; position:absolute; top:80%; left:2.7%; border:1px solid lightgrey;"></div>
+
+    <table class="table">
+        <tr>
+            <td><img src="images\pc.png"></td>
+            <td><img src="images\mouse.png"></td>
+            <td><img src="images\core.png"></td>
+            <td><img src="images\network.png"></td>
+            <td><img src="images\light.png"></td>
+            <td><img src="images\stick.png"></td>
+        </tr>
+        <tr>
+            <td>МОНОБЛОКИ И НОУТБУКИ</td>
+            <td>ПЕРЕФЕРИЯ</td>
+            <td>КОМПЛЕКТУЮЩИЕ</td>
+            <td>РОУТЕРЫ</td>
+            <td>НАСТОЛЬНЫЕ ЛАМПЫ</td>
+            <td>ИГРОВЫЕ СИМУЛЯТОРЫ</td>
+        </tr>
+    </table>
+
+    <div style="width:97%; position:absolute; top:117%; left:2.7%; border:1px solid lightgrey;"></div>
+
+    <div class="buttons_2">
+        <div class="post_2">
+            ДОСТАВКА
+        </div>
+        <div class="post_3">
+            ГАРАНТИЯ
+        </div>
+        <div class="post_4">
+            КРЕДИТ
+        </div>
+    </div>
+
+    <div style="height:240px; position:absolute; top:123%; left:35%; border:1px solid lightgrey;"></div>
+
+    <div style="width:97%; position:absolute; top:160%; left:2.7%; border:1px solid lightgrey;"></div>
+
+    <div class="garand">
+        <span class="garand_2"><b>ГАРАНТИЯ</b></span>
+        <span class="description_2">
+            <pre style="font-family:Helvetica-light; font-size:15px; position: absolute;top: 23%; left: -13%; color:rgb(120,120,120);">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tincidunt
+             ut fringilla ligula eleifend mattis. Nam interdum venenatis porttitor. Fus uoeq
+             suscipit pellentesque nisi, ac lacinia tellus. Donec a eros tincidun, auc
+             ac lacinia esque nisi, ac lacinia tellus. Donec a tincidunt, auceiuqeie
+             ut fringilla ligula eleifend mattis. Nam interdum venenatis porttitor. Fus uo
+            </pre>
+            </span>
+    </div>
+
+    <img src="images\guard.png" style="position: absolute;top: 124%; left: 80%">
+
+    <div class="add_2">
+        <img src="images\add_1.png" style="position: absolute;top: 166%; left: 11.7%">
+    </div>
+
+
+    <style>
+        .garand {
+            font-size: 25px;
+            height: 250px;
+            width: 400px;
+            position: absolute;
+            top: 126%;
+            left: 40%;
+        }
+        
+        .post_2:hover {
+            background-color: rgb(60, 60, 60);
+            color: rgb(224, 175, 76);
+        }
+        
+        .post_3:hover {
+            background-color: rgb(60, 60, 60);
+            color: rgb(224, 175, 76);
+        }
+        
+        .post_4:hover {
+            background-color: rgb(60, 60, 60);
+            color: rgb(224, 175, 76);
+        }
+        
+        .post_2 {
+            color: black;
+            font-size: 14px;
+            border: 1px solid grey;
+            width: 230px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            position: absolute;
+            top: 136%;
+            left: 13%;
+        }
+        
+        .post_3 {
+            color: black;
+            font-size: 14px;
+            border: 1px solid grey;
+            width: 230px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            position: absolute;
+            top: 146%;
+            left: 13%;
+        }
+        
+        .post_4 {
+            color: black;
+            font-size: 14px;
+            border: 1px solid grey;
+            width: 230px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            position: absolute;
+            top: 126%;
+            left: 13%;
+        }
+        
+        .table {
+            position: absolute;
+            top: 84%;
+            left: 12.9%;
+            width: 60%;
+            text-align: center;
+        }
+        
+        .search_2 {
+            position: absolute;
+            top: 5.3%;
+            left: 71.65%;
+            z-index: 1;
+        }
+        
+        .profile {
+            position: absolute;
+            top: 5.3%;
+            left: 75.5%;
+        }
+        
+        .trash_2 {
+            position: absolute;
+            top: 5.3%;
+            left: 86.5%;
+        }
+        
+        .phone {
+            position: absolute;
+            top: 5%;
+            left: 41%;
+        }
+        
+        .lorem {
+            color: white;
+            font-size: 15px;
+            position: absolute;
+            top: 48%;
+            left: 5%;
+        }
+        
+        .about_button {
+            color: white;
+            font-size: 13px;
+            border: 2px solid white;
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 40px;
+            border-radius: 5px;
+            position: absolute;
+            top: 70%;
+            left: 10%;
+        }
+        
+        .ForOffice {
+            color: rgb(60, 60, 60);
+        }
+        
+        .NoteBook {
+            color: rgb(240, 240, 240);
+        }
+        
+        .tagline {
+            font-size: 33px;
+            font-weight: bold;
+            position: absolute;
+            top: 15%;
+            left: 3.5%;
+        }
+        
+        .active_button {
+            position: absolute;
+            left: 45%;
+            top: 85%;
+        }
+        
+        .notebook {
+            position: absolute;
+            left: 60%;
+            top: 12%;
+        }
+        
+        .ad {
+            background-color: rgb(240, 184, 25);
+            width: 1100px;
+            height: 350px;
+            position: absolute;
+            left: 12.5%;
+            box-shadow: 4px 4px 10px grey;
+        }
+        
+        .post {
+            position: absolute;
+            top: 19%;
+            left: 59%;
+            font-size: 19px;
+        }
+        
+        .garant {
+            position: absolute;
+            top: 19%;
+            font-size: 19px;
+            left: 72%;
+        }
+        
+        .contancts {
+            position: absolute;
+            top: 19%;
+            font-size: 19px;
+            left: 85%;
+        }
+        
+        .plus {
+            position: absolute;
+            top: 17.5%;
+            left: 25.6%;
+        }
+        
+        .all_categories {
+            position: absolute;
+            font-size: 17px;
+            left: 15%;
+            top: 19%
+        }
+        
+        .lower-header {
+            background-color: rgb(240, 240, 240);
+            width: 100%;
+            height: 100px;
+        }
+        
+        .cab {
+            color: white;
+            font-size: 13.5px;
+            position: absolute;
+            top: 5.7%;
+            left: 78%;
+            text-decoration: none;
+        }
+        
+        .trash {
+            color: white;
+            font-size: 13.5px;
+            position: absolute;
+            top: 5.7%;
+            left: 89%;
+            text-decoration: none;
+        }
+        
+        .find {
+            border: solid 2px white;
+            width: 260px;
+            height: 25px;
+            position: absolute;
+            top: 4.4%;
+            left: 55%;
+            font-size: 15px;
+            color: white;
+            background-color: rgb(60, 60, 60);
+        }
+        
+        .number_phone {
+            color: rgb(242, 132, 47);
+            position: absolute;
+            top: 5.5%;
+            left: 43%;
+        }
+        
+        .logo {
+            font-size: 65px;
+            color: white;
+            margin-left: 170px;
+            top: 1.8%;
+            position: absolute;
+        }
+        
+        .header {
+            background-color: rgb(60, 60, 60);
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+
+    <script>
+        function ChangeImage(Count) {
+            switch (Count) {
+                case 1:
+                    document.getElementById("imageNoteBook").src = "images\\notebook.png"
+                    break
+                case 2:
+                    document.getElementById("imageNoteBook").src = "images\\notebook_2.png"
+                    break
+                case 3:
+                    document.getElementById("imageNoteBook").src = "images\\notebook_3.png"
+                    break
+                default:
+                    break;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
